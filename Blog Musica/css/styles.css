@@ -9,7 +9,12 @@
 
 .fa {
   font-size: 1.5em;
-  color: #db5461;
+  color: #000;
+}
+
+.fa:hover {
+  color: #d72638;
+
 }
 
 
@@ -36,45 +41,60 @@
   min-height: 80px;
 }
 
+.glyphicon {
+  font-size: 40px;
+}
+
+ textarea.textarea {
+  width: 100%;
+  height: auto;
+}
+
 img {
   height: 80px;
 }
-
-.nav > li > a.no-border {
+/*Estilo de los tabs del navbar*/
+.nav > li > a.border {
   color: black;
   border: none;
   border-radius: 0;
 }
 
-li.active.no-border a {
-  background-color: #dd2d4a;
-  color: white;
+li.active a.border {
+  background-color: white;
   opacity: 0.5;
-  border-radius: 0;
-  border: none;
+  color: black;
+  border: none !important;
+  border-bottom: 2px solid #000 !important;
 }
 
-li.active.no-border a:visited {
-  background-color: #dd2d4a;
-  color: white;
+li.active a.border:visited {
+  color: black;
+  border: none;
+  border-bottom: 2px solid #dd2d4a;
   opacity: 0.5;
   border-radius: 0;
-  border: none;
 }
 
-li.active.no-border a:hover {
-  background-color: #dd2d4a;
-  color: white;
+li.active.border a:hover {
   opacity: 0.5;
+  color: black;
   border-radius: 0;
-  border: none;
+  background-color: white;
+  border-bottom: 2px solid #dd2d4a;
 }
 
 .nav > li > a:hover {
-  color: white;
-  background-color: #dd2d4a;
-  border: none;
+  background-color: white;
+  border-bottom: 2px solid #dd2d4a;
   border-radius: 0;
+}
+/*Fin de estilos de los tabs del nav*/
+
+.same-as-row {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
 }
 
 .container-fluid {
@@ -101,6 +121,12 @@ button.navbar-toggle {
   border: none;
 }
 
+img {
+  padding: 5px;
+}
+
+
+
 
     .navbar-toggle.collapsed:hover {
       background-color: white;
@@ -109,8 +135,53 @@ button.navbar-toggle {
 
     }
 
+    .usericon input {
+    padding-left:25px;
+}
+.usericon:before {
+    height: 100%;
+    width: 25px;
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    position: absolute;
+    content: "\e008";
+    font-family: 'Glyphicons Halflings';
+    pointer-events: none;
+}
+
+    @media only screen and (min-width : 768px) {
+    .is-table-row {
+        display: table;
+    }
+    .is-table-row [class*="col-"] {
+        float: none;
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    .blog-article {
+      border: 1px solid black;
+      padding: 5px;
+      margin: 5px;
+    }
+}
+
 @media screen and (max-width: 568px) {
     h1.reset {
         font-size:1.5em;
     }
+
+    .blog-article {
+      border-bottom: 1px solid black;
+      padding: 5px;
+      margin: 5px;
+    }
+
+    .no-bottom {
+      border-bottom: none;
+    }
+
+
+
 }

@@ -1,104 +1,192 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="utf-8">
-    <title>Blog de Música</title>
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
-  </head>
-  <body>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <title>Blog de Música</title>
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
 
-    <div class="container">
-      <div class="row">
-        <header>
-          <div class="page-header">
-            <div class="row">
-              <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-center">
-                <h1 class="reset title"><img src="img/musicaLogo.png" alt="Logo Música">Blog de Música</h1>
-              </div>
-              <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-center textContainer">
-                <a href="https://www.instagram.com"><i class="fa fa-instagram"></i></a>
-                <a href="https://www.facebook.com"><i class="fa fa-facebook-official"></i></a>
-                <a href="https://www.twitter.com"><i class="fa fa-twitter"></i></a>
-                <a href="https://www.youtube.com"><i class="fa fa-youtube"></i></a>
-              </div>
+  <div class="container">
+    <div class="row">
+      <header>
+        <div class="page-header">
+          <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-center">
+              <h1 class="reset title"><img src="img/musicaLogo.png" alt="Logo Música">Blog de Música</h1>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-center textContainer">
+              <a href="https://www.instagram.com"><i class="fa fa-instagram"></i></a>
+              <a href="https://www.facebook.com"><i class="fa fa-facebook-official"></i></a>
+              <a href="https://www.twitter.com"><i class="fa fa-twitter"></i></a>
+              <a href="https://www.youtube.com"><i class="fa fa-youtube"></i></a>
             </div>
           </div>
-        </header>
-        <nav class="navbar navbar-default">
-          <div class="navbar-header">
+        </div>
+      </header>
+      <nav class="navbar navbar-default">
+        <div class="navbar-header">
 
-            <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand hidden-sm hidden-md hidden-lg" href="#">Dare to enter my ears</a>
+          <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand hidden-sm hidden-md hidden-lg" href="#">Dare to enter my ears</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbar">
+
+
+          <ul class="nav nav-tabs nav-justified">
+            <li class="active"><a href="#" class="border">Home</a></li>
+            <li><a href="#" class="border">Music</a></li>
+            <li><a href="#" class="border">Groups</a></li>
+            <li><a href="#" class="border">Favorites</a></li>
+            <li><a href="#" class="border">Stories</a></li>
+            <li><a href="#" class="border">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div class="row is-table-row">
+      <div class="col-xs-12 col-md-8 col-lg-8">
+        <div class="row is-table-row">
+          <article class="blog-article clearfix">
+            <div class="col-xs-12 col-md-8 col-lg-8">
+              <h2 class="text-center">La Vida Bohème</h2>
+              <p>La Vida Boheme es una de esas bandas que o amas u odias. Lo tiene todo. Amor, odio, calma, quejas a la sociedad de un país que se desmorona a medida que pasa el tiempo. Es una muy buena banda, con letras muy densas pero disfrazadas con un estilo muy alegre y melódicamente llamativo. En definitiva, es un must para todos aquellos dispuestos a perderse entre las líneas de un grupo que, definitivamente, tiene algo muy importante qué decir. Escúchenlos. Valdrá la pena.</p>
+              <p>—Daniel Marcano</p>
+            </div>
+            <div class="col-xs-12 col-md-4 col-lg-4">
+              <img src="img/laVidaBoheme.jpg" alt="La Vida Boheme"
+              class="img-responsive">
+            </div>
+          </article>
+        </div>
+
+        <div class="row is-table-row expanded">
+          <div class="col-md-12 col-sm-12 col-lg-12 col-xs-12">
+            <form method="post">
+              <div class="form-group ">
+                <label class="control-label" for="comment">
+                  <i class="fa fa-user"></i>
+                </label>
+                <textarea class="form-control" cols="40" id="comment" name="comment" placeholder="Comment" rows="2"></textarea>
+              </div>
+            </form>
           </div>
+        </div>
 
-          <div class="collapse navbar-collapse" id="navbar">
+        <div class="row is-table-row">
+          <article class="blog-article clearfix no-bottom">
+            <div class="col-xs-12 col-md-4 col-lg-4">
+              <img src="img/whiteLies.jpg" alt="White Lies"
+              class="img-responsive">
+            </div>
+            <div class="col-xs-12 col-md-8 col-lg-8">
+              <h2 class="text-center">White Lies</h2>
+              <p>Este grupo, en particular, es uno de mis salvavidas. Cada vez que me siento desanimado, me basta con escuchar una de sus canciones para sentirme vivo de nuevo. Conectado con lo que me gusta. Sus letras parecen no tener sentido, pero es porque se esconden del común. Son buenos. Algo así como un indie rock/pop (o post-punk para los objetivos). Me encantan. Su último álbum, Friends, es imperdible. No tiene desperdicio.</p>
+              <p>—Daniel Marcano</p>
+            </div>
+          </article>
+        </div>
 
-
-            <ul class="nav nav-tabs nav-justified">
-              <li class="active"><a href="#" class="border">Home</a></li>
-              <li><a href="#" class="border">Music</a></li>
-              <li><a href="#" class="border">Groups</a></li>
-              <li><a href="#" class="border">Favorites</a></li>
-              <li><a href="#" class="border">Stories</a></li>
-              <li><a href="#" class="border">Contact Me</a></li>
-            </ul>
+        <div class="row is-table-row expanded">
+          <div class="col-md-12 col-sm-12 col-lg-12 col-xs-12">
+            <form method="post">
+              <div class="form-group ">
+                <label class="control-label" for="comment">
+                  <i class="fa fa-user"></i>
+                </label>
+                <textarea class="form-control" cols="40" id="comment" name="comment" placeholder="Comment" rows="2"></textarea>
+              </div>
+            </form>
           </div>
-        </nav>
+        </div>
       </div>
-      <div class="row is-table-row">
-          <div class="col-xs-12 col-md-8 col-lg-8">
+      <div class="col-xs-12 col-md-4 col-lg-4">
 
-                <div class="row is-table-row">
-                  <article class="blog-article clearfix">
-                  <div class="col-xs-12 col-md-8 col-lg-8">
-                    <h2 class="text-center">La Vida Bohème</h2>
-                    <p>La Vida Boheme es una de esas bandas que o amas u odias. Lo tiene todo. Amor, odio, calma, quejas a la sociedad de un país que se desmorona a medida que pasa el tiempo. Es una muy buena banda, con letras muy densas pero disfrazadas con un estilo muy alegre y melódicamente llamativo. En definitiva, es un must para todos aquellos dispuestos a perderse entre las líneas de un grupo que, definitivamente, tiene algo muy importante qué decir. Escúchenlos. Valdrá la pena.</p>
-                    <p>—Daniel Marcano</p>
-
-                  </div>
-                  <div class="col-xs-12 col-md-4 col-lg-4">
-                    <img src="img/laVidaBoheme.jpg" alt="La Vida Boheme"
-                    class="img-responsive">
-                  </div>
-                </article>
-                </div>
-                <div class="row is-table-row">
-                  <form role="form">
-                    <div class="form-group col-xs-12">
-                      <textarea class="form-control textarea" placeholder="Message"></textarea>
-                    </div>
-                  </form>
-                </div>
-                <div class="row is-table-row">
-                  <article class="blog-article clearfix no-bottom">
-                    <div class="col-xs-12 col-md-4 col-lg-4">
-                      <img src="img/whiteLies.jpg" alt="La Vida Boheme"
-                      class="img-responsive">
-                    </div>
-                  <div class="col-xs-12 col-md-8 col-lg-8">
-                    <h2 class="text-center">White Lies</h2>
-                    <p>Este grupo, en particular, es uno de mis salvavidas. Cada vez que me siento desanimado, me basta con escuchar una de sus canciones para sentirme vivo de nuevo. Conectado con lo que me gusta. Sus letras parecen no tener sentido, pero es porque se esconden del común. Son buenos. Algo así como un indie rock/pop (o post-punk para los objetivos). Me encantan. Su último álbum, Friends, es imperdible. No tiene desperdicio.</p>
-                    <p>—Daniel Marcano</p>
-                  </div>
-                </article>
+        <form method="post">
+          <div class="form-group ">
+            <div class="input-group">
+              <span class="input-group-addon" id="basic-addon1">@</span>
+              <input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1">
             </div>
           </div>
-          <div class="col-xs-12 col-md-8 col-lg-8">
-
-                HOLA
+          <div class="form-group ">
+            <label class="control-label ">
+              &iquest;Qu&eacute; tipo de m&uacute;sica te gusta?
+            </label>
+            <div class=" ">
+              <div class="checkbox">
+                <label class="checkbox">
+                  <input name="checkbox" type="checkbox" value="Country"/>
+                  Country
+                </label>
+              </div>
+              <div class="checkbox">
+                <label class="checkbox">
+                  <input name="checkbox" type="checkbox" value="Pop"/>
+                  Pop
+                </label>
+              </div>
+              <div class="checkbox">
+                <label class="checkbox">
+                  <input name="checkbox" type="checkbox" value="Rock"/>
+                  Rock
+                </label>
+              </div>
+              <div class="checkbox">
+                <label class="checkbox">
+                  <input name="checkbox" type="checkbox" value="Indie Rock"/>
+                  Indie Rock
+                </label>
+              </div>
+            </div>
           </div>
+          <div class="form-group ">
+            <label class="control-label ">
+              &iquest;Buscar s&oacute;lo resultados de m&uacute;sica en ingl&eacute;s?
+            </label>
+            <div class="">
+              <div class="radio">
+                <label class="radio">
+                  <input name="radio" type="radio" value="S&iacute;"/>
+                  S&iacute;
+                </label>
+              </div>
+              <div class="radio">
+                <label class="radio">
+                  <input name="radio" type="radio" value="No"/>
+                  No
+                </label>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="control-label " for="name">
+              Cantante favorito
+            </label>
+            <input class="form-control" id="name" name="name" placeholder="White Lies" type="text"/>
+          </div>
+          <div class="form-group">
+            <div>
+              <button class="btn btn-primary " name="submit" type="submit">
+                Submit
+              </button>
+            </div>
+          </div>
+        </form>
       </div>
     </div>
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-  </body>
+  </div>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.min.js"></script>
+</body>
 </html>

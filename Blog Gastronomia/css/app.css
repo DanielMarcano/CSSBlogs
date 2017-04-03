@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+body {
+  background-image: url("../img/foodBackground.jpg");
+  z-index: 0;
+  color: black;
+  width: 100%;
+}
+
+/* Estilos para las fotos */
+.img {
+  width: 100px;
+  margin: 10px;
+}
+
+.img:hover {
+  box-shadow: 0 2px #FF0054;
+}
+/*Fin de estilos para las fotos*/
+
+/* Clases miscelaneas */
+.bg-color {
+  background-color: #FFF8F0;
+  box-shadow: 1px 1px #FF0054;
+}
+
+.margin {
+  margin: 20px;
+}
+
+.padding {
+  padding: 10px;
+}
+
+.b-right {
+  border-right: 1px solid #FF0054;
+}
+
+.no-border {
+  border: none;
+}
+
+.b-bottom {
+  border-bottom: 1px solid #FF0054;
+}
+
+.visited {
+  text-decoration: underline;
+  color: grey;
+}
+/* Fin de clases miscelaneas */
+
+/*Estilos del header*/
+header {
+  padding: 10px;
+  margin: 5px;
+}
+/*Fin de estilos del header*/
+
+/* Estilos de los articulos */
+.article {
+  padding: 20px;
+  margin: 20px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.img-article {
+  width: 80%;
+  margin-left: 10%;
+}
+
+.text-article {
+  padding: 5px;
+  margin: 5px;
+}
+/* Fin de estilos de los articulos */

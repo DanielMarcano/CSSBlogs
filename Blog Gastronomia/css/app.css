@@ -26,10 +26,13 @@ img {
 
 /* Clases miscelaneas */
 .bg-color {
-  background-color: #FFF8F0;
+  background-color: #FDFFFC;
   box-shadow: 1px 1px #FF0054;
 }
 
+.bg-articles {
+  background-color: #41EAD4;
+}
 
 .margin {
   margin: 1%;
@@ -40,7 +43,7 @@ img {
 }
 
 .b-right {
-  border-right: 1px solid #FF0054;
+  border-right: 2px solid #FF0054;
 }
 
 .no-border {
@@ -48,7 +51,7 @@ img {
 }
 
 .b-bottom {
-  border-bottom: 1px solid #FF0054;
+  border-bottom: 2px solid #FF0054;
 }
 
 .visited {

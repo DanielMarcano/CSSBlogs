@@ -3,15 +3,13 @@
 body {
   padding: 0;
   margin: 0;
+  background-image: url("../img/mar.jpg");
+  background-size: cover;
 }
 
 .height {
   min-height: 200px;
-  line-height: 100px;
-}
-
-.contain {
-  width: 10%;
+  line-height: 50px;
 }
 
 .jet {
@@ -51,7 +49,7 @@ body {
 }
 
 .contact-form {
-  max-width: 100%;
+  width: 100%;
 }
 
 .img-article {
@@ -64,7 +62,7 @@ body {
 }
 
 .social-icons:hover {
-  color: #084C61;
+  color: #FFF;
 }
 
 .full-width {
@@ -75,17 +73,67 @@ body {
   text-align: center;
 }
 
-.img-logo {
-  width: 10%;
-  position: absolute;
-  top: 0;
-  left: 2%;
+.link {
+  margin-top: 5%;
 }
 
 .slogan {
   text-align: right;
 }
 
-@media query {
+.img-logo {
+  width: 5%;
+  position: absolute;
+  top: 0;
+  left: 7%;
+}
 
+@media (max-width: 1024px) {
+  .img-resizer {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 1%;
+    margin-bottom: 0;
+  }
+
+  .img-article {
+    margin-top: 5%;
+  }
+
+  .slogan {
+    width: 100%;
+    text-align: center;
+    font-size: 2em;
+  }
+  .link {
+    width: 100%;
+  }
+
+  .img-profile {
+    width: 30%;
+    margin: auto 35%;
+    margin-top: 5%;
+  }
+
+  .article {
+    font-size: 1.5em;
+  }
+
+  .card {
+    font-size: 1.5em;
+  }
+
+}
+
+@media (min-width: 1024px) and (max-width: 1200px){
+  .img-logo {
+    width: 5%;
+    position: absolute;
+    top: 1%;
+    left: 1%;
+  }
+  .slogan {
+    font-size: 1.5em;
+  }
 }

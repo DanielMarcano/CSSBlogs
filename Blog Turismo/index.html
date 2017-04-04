@@ -14,32 +14,30 @@
 <body>
 
   <!-- Fila del header -->
-  <div class="row">
-    <header>
+  <div class="row header">
+    <header class="header">
       <!-- Columna del slogan -->
       <div class="col s12 m12 l5">
         <div>
-          <h5 class="slogan flow-text"><em><img class="img-responsive img-logo z-depth-2" src="img/saltoAngel.jpg" alt="">This is how the world looks like!</em></h5>
+          <h5 class="slogan flow-text"><em><img class="img-responsive img-logo z-depth-2 hide-on-med-and-down" src="img/logo.jpg" alt="Logo">This is how the world looks like!</em></h5>
         </div>
       </div>
       <!-- Columna de los links -->
       <div class="col s12 m12 l7">
-        <div>
           <div class="row text-center full-width">
             <div class="col s12 m3 l3">
-              <a href="#" class="waves-effect waves-light btn metallic-seaweed">Inicio</a>
+              <a href="#" class="waves-effect waves-light btn metallic-seaweed link">Inicio</a>
             </div>
             <div class="col s12 m3 l3">
-              <a href="#" class="waves-effect waves-light btn metallic-seaweed">Mis viajes</a>
+              <a href="#" class="waves-effect waves-light btn metallic-seaweed link">Mis viajes</a>
             </div>
             <div class="col s12 m3 l3">
-              <a href="#" class="waves-effect waves-light btn metallic-seaweed">Tips</a>
+              <a href="#" class="waves-effect waves-light btn metallic-seaweed link">Tips</a>
             </div>
             <div class="col s12 m3 l3">
-              <a href="#" class="waves-effect waves-light btn metallic-seaweed">Historias</a>
+              <a href="#" class="waves-effect waves-light btn metallic-seaweed link">Historias</a>
             </div>
           </div>
-        </div>
       </div>
     </header>
   </div>
@@ -59,21 +57,21 @@
       <div class="row">
         <div class="col s12 m12 l4">
           <div class="row">
-            <img class="img-resizer z-depth-3 responsive-img" src="img/saltoAngel.jpg" alt="">
+            <img class="img-resizer z-depth-3 responsive-img" src="img/saltoAngel.jpg" alt="Salto Ángel">
           </div>
           <div class="row">
-            <img class="img-resizer z-depth-3 responsive-img" src="img/saltoAngel.jpg" alt="">
+            <img class="img-resizer z-depth-3 responsive-img" src="img/saltoAngel.jpg" alt="Salto Ángel">
           </div>
         </div>
         <div class="col s12 m12 l4">
-          <img class="img-resizer z-depth-3 responsive-img" src="img/saltoAngel2.jpg" alt="valigneada">
+          <img class="img-resizer z-depth-3 responsive-img" src="img/saltoAngel2.jpg" alt="Salto Ángel">
         </div>
         <div class="col s12 m12 l4">
           <div class="row">
-            <img class="img-resizer z-depth-3 responsive-img" src="img/saltoAngel.jpg" alt="">
+            <img class="img-resizer z-depth-3 responsive-img" src="img/saltoAngel.jpg" alt="Salto Ángel">
           </div>
           <div class="row">
-            <img class="img-resizer z-depth-3 responsive-img" src="img/saltoAngel.jpg" alt="">
+            <img class="img-resizer z-depth-3 responsive-img" src="img/saltoAngel.jpg" alt="Salto Ángel">
           </div>
         </div>
       </div>
@@ -81,10 +79,10 @@
   </div>
   <div class="row">
     <div class="col s12 m12 l8">
-      <div class="row z-depth-2 article midnight-green">
+      <div class="row z-depth-2 article midnight-green hoverable">
         <article>
           <div class="col s12 m4 l4">
-            <img class="img-article img-responsive z-depth-3" src="img/saltoAngel.jpg" alt="">
+            <img class="img-article img-responsive z-depth-3" src="img/portland.jpg" alt="Portland, OR, US">
           </div>
           <div class="col s12 m8 l8">
             <h2>Portland y su magia</h2>
@@ -100,10 +98,10 @@
           </div>
         </article>
       </div>
-      <div class="row z-depth-2 article midnight-green">
+      <div class="row z-depth-2 article midnight-green hoverable">
         <article>
           <div class="col s12 m4 l4">
-            <img class="img-article img-responsive z-depth-3" src="img/saltoAngel.jpg" alt="">
+            <img class="img-article img-responsive z-depth-3" src="img/paris.jpg" alt="París, Francia">
           </div>
           <div class="col s12 m8 l8">
             <h2>Paris, Paris</h2>
@@ -120,19 +118,18 @@
         </article>
       </div>
       <div class="row z-depth-2 contact-form">
-    <form class="col s12">
+    <form class="col s12 metallic-seaweed">
       <h5>Contáctame:</h5>
-
       <div class="row">
         <div class="input-field col s6">
           <i class="material-icons prefix">account_circle</i>
           <input id="icon_prefix" type="text" class="validate">
-          <label for="icon_prefix">First Name</label>
+          <label for="icon_prefix">Nombre</label>
         </div>
         <div class="input-field col s6">
           <i class="material-icons prefix">phone</i>
           <input id="icon_telephone" type="tel" class="validate">
-          <label for="icon_telephone">Telephone</label>
+          <label for="icon_telephone">Teléfono</label>
         </div>
         <div class="input-field col s6 right">
     <button class="btn waves-effect waves-light full-width" type="submit" name="action">Enviar
@@ -143,21 +140,18 @@
     </form>
       </div>
     </div>
+    <!-- Columna de la carta de presentacion -->
     <div class="col s12 m12 l4">
-      <div class="row">
-        <div class="col s12">
-          <div class="card jet">
+          <div class="card hoverable jet">
             <img class="circle img-profile" src="img/fotoPerfil.jpg">
             <h2 class="card-title text-center">Daniel Marcano</h2>
             <hr>
             <div class="card-content">
               <p>Escritor, desarrollador de páginas web, y de apps móviles para Android. Futuro desarrollador de videojuegos.</p>
             </div>
-          </div>
-        </div>
-      </div>
     </div>
   </div>
+</div>
 
 
 

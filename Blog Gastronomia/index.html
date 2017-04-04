@@ -5,154 +5,185 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Foodstruck</title>
-  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/foundation-icons.css">
   <link rel="stylesheet" href="css/foundation.css">
   <link rel="stylesheet" href="css/app.css">
 </head>
 <body>
-  <div class="row bg-color">
-    <!-- Columna del header, buscador, nav, favoritos, e historial -->
-    <div class="column small-12 b-bottom">
-      <div class="row">
-        <header class="b-right">
+  <div class="container">
+
+    <div class="row bg-color">
+      <div class="column small-12 b-bottom">
+        <header>
           <h1>Foodstruck</h1>
           <h5><i>Every one of your organs likes this</i></h5>
         </header>
       </div>
     </div>
-    <div class="column large-4 medium-4">
-    <!-- Fila del buscador -->
-    <form>
-      <div class="row margin">
-        <div class="small-3 columns">
-          <label for="right-label" class="text-right">Buscar:</label>
+    <div class="row bg-color">
+      <!-- Columna del buscador, nav, favoritos, e historial -->
+      <div class="column small-12 large-4 medium-12">
+        <!-- Fila del buscador -->
+        <form>
+          <div class="row margin">
+            <div class="small-3 columns">
+              <label for="right-label" class="text-right">Buscar:</label>
+            </div>
+            <div class="small-9 columns">
+              <input type="text" id="right-label" placeholder="Mi receta favorita...">
+            </div>
+          </div>
+        </form>
+        <div class="row">
+          <!-- Inicio del nav -->
+          <ul class="menu vertical">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Platos Favoritos</a></li>
+            <li><a href="#">Recetas</a></li>
+          </ul>
         </div>
-        <div class="small-9 columns">
-          <input type="text" id="right-label" placeholder="Mi receta favorita...">
-        </div>
-      </div>
-    </form>
-    <div class="row">
-      <!-- EL NAV VA ACA -->
-    </div>
-<!-- Inicio de la fila de Favoritos: -->
-    <div class="row">
-      <div class="small-12 columns">
+        <!-- Inicio de la fila de Favoritos: -->
         <div class="row">
           <div class="small-12 columns">
-            <h4>Favoritos:</h2>
+            <div class="row">
+              <div class="small-12 columns">
+                <h4>Favoritos:</h2>
+                </div>
+              </div>
+              <div class="row">
+                <div class="small-4 columns">
+                  <img class="img" src="img/comida.jpg" alt="">
+                </div>
+                <div class="small-4 columns">
+                  <img class="img" src="img/comida.jpg" alt="">
+                </div>
+                <div class="small-4 columns">
+                  <img class="img" src="img/comida.jpg" alt="">
+                </div>
+              </div>
+              <div class="row">
+                <div class="small-4 columns">
+                  <img class="img" src="img/comida.jpg" alt="">
+                </div>
+                <div class="small-4 columns">
+                  <img class="img" src="img/comida.jpg" alt="">
+                </div>
+                <div class="small-4 columns">
+                  <img class="img" src="img/comida.jpg" alt="">
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="small-4 columns">
-            <img class="img" src="img/foodBackground.jpg" alt="">
+
+          <div class="row">
+            <div class="small-12 columns">
+              <div class="row">
+                <div class="small-12 columns">
+                  <h4>Historial:</h2>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="small-12 columns callout-primary">
+                    <p class="visited">20 recetas para morir de dulzura...</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="small-12 columns callout-primary">
+                    <p class="visited">10 platos que no te puedes perder</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="small-12 columns callout-primary">
+                    <p class="visited">¿Dulce o salado?</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="small-12 columns callout-primary">
+                    <p class="visited">Torta tres leches</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Form Buscador -->
           </div>
-          <div class="small-4 columns">
-            <img class="img" src="img/foodBackground.jpg" alt="">
+          <!-- Inicio de la fila de los articulos...-->
+          <div class="small-12 large-8 medium-12 column">
+            <div class="row">
+              <div class="column small-12">
+                <article class="article">
+                  <h3>Cuando las cebollas no te hacen llorar...</h3>
+                  <h5>12/19/2016</h5>
+                  <img class="img-article" src="img/cebolla.jpg" alt="Cebollas">
+                  <p class="text-article">Lo cierto es que, de vez en cuando, puede que no llores al cortar una cebolla. Y eso estará bien, porque significará un progreso de la persona que fuiste antes, y de la que eres ahora. Pero ya, basta de hablar de temas tan densos. Hoy estamos acá para contarte todo lo que puedes hacer con las cebollas, para que puedas recuperar esas ganas de llorar cada vez que te acercas, de nuevo, a ellas. ¡Disfruta!</p>
+                </article>
+              </div>
+            </div>
+            <form>
+              <div class="row padding">
+                <div class="column small-12">
+                  <div class="card padding">
+                    <label>
+                      Deja un comentario:
+                      <textarea placeholder="None"></textarea>
+                    </label>
+                    <input type="submit" class="button" value="Enviar">
+
+                  </div>
+                </div>
+              </div>
+            </form>
+            <div class="row">
+              <div class="column small-12">
+                <article class="article">
+                  <h3>El chocolate y su relación con nuestro estado de ánimo</h3>
+                  <h5>14/02/2017</h5>
+                  <img class="img-article align-justify" src="img/chocolate.jpg" alt="Chocolates">
+                  <p class="text-article">Sí, has leído bien. Está comprobado científicamente que el chocolate puede llegar a generar un estado de felicidad en nosotros. ¿Que sí, que ya lo sabías? Hmmm, quizás, pero no sabías esto: (shh, es un secreto, tendrás que leer el artículo completo)</p>
+                </article>
+              </div>
+            </div>
+            <form>
+              <div class="row padding">
+                <div class="card padding">
+                  <label>
+                    Deja un comentario:
+                    <textarea placeholder="None"></textarea>
+                  </label>
+                  <input type="submit" class="button" value="Enviar">
+                </div>
+              </div>
+            </form>
+            <div class="row">
+              <div class="column small-12">
+                <div class="callout secondary">
+                  <p><i class="step fi-torso"></i>Yo pienso que este es el mejor articulo que he leido en años...</p>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="small-4 columns">
-            <img class="img" src="img/foodBackground.jpg" alt="">
-          </div>
-        </div>
-        <div class="row">
-          <div class="small-4 columns">
-            <img class="img" src="img/foodBackground.jpg" alt="">
-          </div>
-          <div class="small-4 columns">
-            <img class="img" src="img/foodBackground.jpg" alt="">
-          </div>
-          <div class="small-4 columns">
-            <img class="img" src="img/foodBackground.jpg" alt="">
-          </div>
+          <!-- Fin de la fila de los articulos...-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         </div>
       </div>
-    </div>
 
-    <div class="row">
-      <div class="small-12 columns">
-        <div class="row">
-          <div class="small-12 columns">
-            <h4>Historial:</h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="small-12 columns callout-primary">
-            <p class="visited">20 recetas para morir de dulzura...</p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="small-12 columns callout-primary">
-            <p class="visited">10 platos que no te puedes perder</p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="small-12 columns callout-primary">
-            <p class="visited">¿Dulce o salado?</p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="small-12 columns callout-primary">
-            <p class="visited">Torta tres leches</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Form Buscador -->
-  </div>
-  <!-- Inicio de la fila de los articulos...-->
-    <div class="large-8 medium-8">
-      <div class="row">
-        <div class="column small-12">
-          <article class="article">
-            <h3>Cuando las cebollas no te hacen llorar...</h3>
-            <h5>12/19/2016</h5>
-            <img class="img-article" src="img/foodBackground.jpg" alt="">
-            <p class="text-article">Lo cierto es que, de vez en cuando, puede que no llores al cortar una cebolla. Y eso estará bien, porque significará un progreso de la persona que fuiste antes, y de la que eres ahora. Pero ya, basta de hablar de temas tan densos. Hoy estamos acá para contarte todo lo que puedes hacer con las cebollas, para que puedas recuperar esas ganas de llorar cada vez que te acercas, de nuevo, a ellas. ¡Disfruta!</p>
-          </article>
-        </div>
-      </div>
-      <div class="row">
-        <div class="column small-12">
-          <article class="article">
-            <h3>El chocolate y su relación con nuestro estado de ánimo</h3>
-            <h5>14/02/2017</h5>
-            <img class="img-article align-justify" src="img/foodBackground.jpg" alt="">
-            <p class="text-article">Sí, has leído bien. Está comprobado científicamente que el chocolate puede llegar a generar un estado de felicidad en nosotros. ¿Que sí, que ya lo sabías? Hmmm, quizás, pero no sabías esto: (shh, es un secreto, tendrás que leer el artículo completo)</p>
-          </article>
-        </div>
-      </div>
-      <form>
-        <div class="row padding">
-          <div class="small-3 columns">
-            <label for="comment1" class="text-right">COMENTARIO:</label>
-          </div>
-          <div class="small-9 columns">
-            <textarea id="comment1" cols="10" rows="2" placeholder="Mi receta favorita..."></textarea>
-          </div>
-        </div>
-      </form>
-    </div>
-  <!-- Fin de la fila de los articulos...-->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  </div>
-  <script src="js/vendor/jquery.js"></script>
-  <script src="js/vendor/what-input.js"></script>
-  <script src="js/vendor/foundation.js"></script>
-  <script src="js/app.js"></script>
-</body>
-</html>
+      <script src="js/vendor/jquery.js"></script>
+      <script src="js/vendor/what-input.js"></script>
+      <script src="js/vendor/foundation.js"></script>
+      <script src="js/app.js"></script>
+    </body>
+    </html>
